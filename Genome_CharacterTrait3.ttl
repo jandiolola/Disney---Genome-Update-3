@@ -1,0 +1,269 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tgsi: <http://data.tagasauris.com/ontologies/core/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix genome: <http://data.disney.com/ontologies/genome/> .
+
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j8r> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Beliefs/Attitude"@en .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j8t> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Idealistic"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j8v> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Sarcastic/Cynical"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j8s> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Humble/Modest"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzc> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Proud/Conceited/Haughty"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzd> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Optimistic"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzf> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Pessimistic/Melancholic"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzg> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Self-critical/Self-conscious/Insecure"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzh> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Adventurous/Curious"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j8w> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Skeptical"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j8r> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb4> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Moral"@en .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb5> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Evil/Cruel/Immoral"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jb4> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb6> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Generous/Giving"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jb4> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb7> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Greedy/Selfish"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jb4> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb8> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Good/Kind/Moral"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jb4> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb9> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Irreverent"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jb4> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbb> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Pious/Devout"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jb4> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j98> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Emotional"@en .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j99> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Angry/Irritable"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9b> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Apathetic/Emotionless/Impassive"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9d> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Nervous/Neurotic/Anxious/Paranoid"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9f> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Passionate"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9g> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Repressed/Inhibited"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9h> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Romantic"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9j> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Sensitive"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9k> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Unstable"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9l> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Vulnerable"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzj> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Calm/Mellow/Placid"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j98> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9t> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Interpersonal"@en .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9v> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Convincing/Persuasive"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9w> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Disloyal/Untrustworthy/Dishonest/Deceptive"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9x> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Empathetic/Compassionate/Sympathetic/Selfless/Understanding"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzk> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Helpful"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9y> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Gullible/Impressonable"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1j9z> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Loyal/Trustworthy/Honest/Faithful"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb0> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Protective"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb1> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Ruthless/Agressive/Hostile"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb2> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Secretive"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jb3> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Self-centered/Narcissistic"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzl> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Independent/Self-sufficient"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzm> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Co-dependent"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzn> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Perceptive"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzp> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Competitive/Intense"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzq> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Trusting"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzr> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Stubborn/Argumentative/Rigid"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzs> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Jealous/Envious"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1j9t> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbk> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Sexual"@en .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbl> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Asexual"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbk> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbm> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Bisexual"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbk> .
+
+<http:/data.tagasauris.com/instances/n2cjk1vvfyzt> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Chaste"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbk> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbn> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Heterosexual"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbk> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbp> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Homosexual"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbk> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbq> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Promiscous"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbk> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbc> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Political"@en .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbd> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Close-minded/Opinionated"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbc> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbh> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Open-minded"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbc> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbr> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Social"@en .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbt> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Awkward"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbw> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Charismatic/Polished"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jbx> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Charming/Vivacious"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jby> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Cold/Aloof/Unfriendly"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jc0> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Famous"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jc1> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Friendly/Bubbly/Outgoing"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jc2> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Funny/Amusing/Humorous"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jc4> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Popular/Cool"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jc5> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Severe/Imposing/Stern/Strict"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .
+
+<http:/data.tagasauris.com/instances/mvrh3v6l1jc6> a genome:CharacterTrait ;
+	tgsi:preferredLabel "Uncool/Nerdy/Unpopular"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrh3v6l1jbr> .

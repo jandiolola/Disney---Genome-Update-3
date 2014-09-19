@@ -1,0 +1,157 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tgsi: <http://data.tagasauris.com/ontologies/core/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix genome: <http://data.disney.com/ontologies/genome/> .
+
+
+<http:/data.tagasauris.com/instances/n5js86325vj5> a genome:MotivationType ;
+	tgsi:preferredLabel "Effectiveness"@en .
+
+<http:/data.tagasauris.com/instances/n5js86325vj6> a genome:MotivationType ;
+	tgsi:preferredLabel "Ambition/Complacency"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vj5> .
+
+<http:/data.tagasauris.com/instances/n5js86325vj7> a genome:MotivationType ;
+	tgsi:preferredLabel "Courage/Cowardice"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vj5> .
+
+<http:/data.tagasauris.com/instances/n5js86325vj8> a genome:MotivationType ;
+	tgsi:preferredLabel "Maturity/Immaturity"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vj5> .
+
+<http:/data.tagasauris.com/instances/n5js86325vj9> a genome:MotivationType ;
+	tgsi:preferredLabel "Strength/Weakness"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vj5> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjb> a genome:MotivationType ;
+	tgsi:preferredLabel "Wisdom/Stupidity"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vj5> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjc> a genome:MotivationType ;
+	tgsi:preferredLabel "Emotional"@en .
+
+<http:/data.tagasauris.com/instances/n5js86325vjd> a genome:MotivationType ;
+	tgsi:preferredLabel "Excitement/Boredom"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjc> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjf> a genome:MotivationType ;
+	tgsi:preferredLabel "Happiness/Unhappiness"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjc> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjg> a genome:MotivationType ;
+	tgsi:preferredLabel "Hope/Despair"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjc> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjh> a genome:MotivationType ;
+	tgsi:preferredLabel "Serenity/Disquiet"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjc> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjj> a genome:MotivationType ;
+	tgsi:preferredLabel "Institutional"@en .
+
+<http:/data.tagasauris.com/instances/n5js86325vjk> a genome:MotivationType ;
+	tgsi:preferredLabel "Peace/War"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjj> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjl> a genome:MotivationType ;
+	tgsi:preferredLabel "Freedom/Restraint"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjj> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjm> a genome:MotivationType ;
+	tgsi:preferredLabel "Moral"@en .
+
+<http:/data.tagasauris.com/instances/n5js86325vjn> a genome:MotivationType ;
+	tgsi:preferredLabel "Justice/Injustice"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjm> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjp> a genome:MotivationType ;
+	tgsi:preferredLabel "Redemption/Sin OR Forgiveness/Blame"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjm> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjq> a genome:MotivationType ;
+	tgsi:preferredLabel "Right/Wrong"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjm> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjr> a genome:MotivationType ;
+	tgsi:preferredLabel "Perception"@en .
+
+<http:/data.tagasauris.com/instances/n5js86325vjs> a genome:MotivationType ;
+	tgsi:preferredLabel "Achievement/Failure"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjr> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjt> a genome:MotivationType ;
+	tgsi:preferredLabel "Fame/Insignificance"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjr> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjv> a genome:MotivationType ;
+	tgsi:preferredLabel "Honor/Shame OR Validation/Disapproval"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjr> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjw> a genome:MotivationType ;
+	tgsi:preferredLabel "Relationship/Social"@en .
+
+<http:/data.tagasauris.com/instances/n5js86325vjx> a genome:MotivationType ;
+	tgsi:preferredLabel "Communication/Silence"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjy> a genome:MotivationType ;
+	tgsi:preferredLabel "Comraderie/Solitude"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vjz> a genome:MotivationType ;
+	tgsi:preferredLabel "Friendship/Enmity"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk0> a genome:MotivationType ;
+	tgsi:preferredLabel "Love/Hate: Romantic"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk1> a genome:MotivationType ;
+	tgsi:preferredLabel "Love/Hate: Familial"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk2> a genome:MotivationType ;
+	tgsi:preferredLabel "Love/Hate: Friendship"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk3> a genome:MotivationType ;
+	tgsi:preferredLabel "Loyalty/Betrayal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk4> a genome:MotivationType ;
+	tgsi:preferredLabel "Truth/Lie"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk5> a genome:MotivationType ;
+	tgsi:preferredLabel "Belonging/Exclusion"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vjw> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk6> a genome:MotivationType ;
+	tgsi:preferredLabel "Well-Being"@en .
+
+<http:/data.tagasauris.com/instances/n5js86325vk7> a genome:MotivationType ;
+	tgsi:preferredLabel "Alive/Dead"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vk6> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk8> a genome:MotivationType ;
+	tgsi:preferredLabel "Food/Hunger"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vk6> .
+
+<http:/data.tagasauris.com/instances/n5js86325vk9> a genome:MotivationType ;
+	tgsi:preferredLabel "Home/Wilderness"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vk6> .
+
+<http:/data.tagasauris.com/instances/n5js86325vkb> a genome:MotivationType ;
+	tgsi:preferredLabel "Pleasure/Pain"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vk6> .
+
+<http:/data.tagasauris.com/instances/n5js86325vkc> a genome:MotivationType ;
+	tgsi:preferredLabel "Security/Danger"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vk6> .
+
+<http:/data.tagasauris.com/instances/n5js86325vkd> a genome:MotivationType ;
+	tgsi:preferredLabel "Wealth/Poverty"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5js86325vk6> .

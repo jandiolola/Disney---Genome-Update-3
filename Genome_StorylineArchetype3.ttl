@@ -1,0 +1,371 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tgsi: <http://data.tagasauris.com/ontologies/core/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix genome: <http://data.disney.com/ontologies/genome/> .
+
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwg> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Coercion/Manipulation/Violence"@en .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwh> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Backstabbing"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwg> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwj> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Manipulation / using other characters as pawns"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwg> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwk> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Bribery"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwg> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwl> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Kidnapping Plot"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwg> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwm> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Emotional"@en .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwn> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Obsession Plot"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwm> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwp> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Romantic Stalker"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwn> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwq> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Denial of past / character \"reinvents\" self"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwm> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwr> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Breaking free"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwm> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nws> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Defying parents"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwr> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwt> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Defying mentors"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwr> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwv> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Traumatic past"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwm> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nww> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Maturation Plot"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwm> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwx> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Seeking approval"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwm> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwy> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "From father"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwx> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nwz> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Family"@en .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx0> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Surprise parenthood / \"Finds out he's a dad\""@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwz> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx1> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Parental abandonment / separation from parents"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwz> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx2> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Both parents"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nx1> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx3> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Missing mom"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nx1> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx4> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Missing dad"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nx1> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx5> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Embarrasing Family"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwz> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx6> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Embarrasing Parents"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nx5> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx7> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Family issues: other"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwz> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx8> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Following parents' footsteps"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwz> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nx9> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Parental favoritism"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwz> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxb> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Prodigal Son"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nwz> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxc> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Good Guy/Bad Guy"@en .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxd> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Bad guy turns good"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxf> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Good guy turns bad"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxg> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Heroes accidentally cause evil"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxh> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Villains accidentally cause good"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxj> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Opposite characters learn they have something in common"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxk> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Imposter/mole/villain in disguise"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxl> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Villain shows redeeming side"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxm> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Enemies or opposites must work together"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxn> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Self-sacrifice"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxc> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxp> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Life/Death"@en .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxq> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Faked death"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxp> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxr> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Resurrection"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxp> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxs> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Death"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxp> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxt> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Of villain/enemy/jerk"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxs> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxv> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Of good guy/innocent"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxs> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxw> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Of protagonist/central character"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxs> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxx> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Tormenting the innocent"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxs> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxy> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Miraculous"@en .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nxz> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "The Apocalypse"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxy> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny0> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Wish Fulfillment"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxy> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny1> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Time travel"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nxy> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny2> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Social/Institutional/Groups"@en .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny3> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Class warfare"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny4> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Battle of the Sexes"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny5> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Starting rival organization"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny6> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Tight social circle"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny7> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Drowning sorrows"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny8> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Rags to riches"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35ny9> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "The \"New Kid\""@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyb> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Fall from grace"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyc> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Sane character surrounded by insanity"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35ny2> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyd> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Romantic / Relationship"@en .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyf> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "On the rebound"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyg> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Love triangle (or other shape)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyh> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Promiscuity plots / \"Getting around\""@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyj> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Reformed Lothario (Womanizer)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyh> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyk> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Revenge plot"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyl> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Scorned Lover"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyk> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nym> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Coming out of the closet"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyn> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Matchmaking"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyp> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Starcrossed Lovers"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyq> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Relationship sabotage"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyr> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Affair"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nys> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Workplace affair"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyr> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyt> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Golddigging"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyv> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Disintegration of a relationship"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyw> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Moment is killed"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyx> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Role reversal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyd> .
+
+<http:/data.tagasauris.com/instances/mvrrhnk35nyy> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Gender role reversal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrrhnk35nyx> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63l> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Truth/Secrets/Knowledge"@en .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63m> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Concealed pregnancy"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63n> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Wrongful accusation"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63p> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Of cheating/adultery"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63n> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63q> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Of breaking law"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63n> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63r> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Trickery Plot"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63s> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "False injury, sickness or weakness"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63r> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63t> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Concealed gender"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63v> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Action hero revealed as female"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63t> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63w> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Backstory revealed"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63x> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Deep dark secret/mysterious past"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63y> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Truth-tellers ignored"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys63z> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Exposing corruption"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys640> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Stupidity fuels plot"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .
+
+<http:/data.tagasauris.com/instances/n5jgxv7ys641> a genome:StorylineArchetype ;
+	tgsi:preferredLabel "Fool Triumphant"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jgxv7ys63l> .

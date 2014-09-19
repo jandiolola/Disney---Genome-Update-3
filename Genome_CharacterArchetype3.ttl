@@ -1,0 +1,62 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tgsi: <http://data.tagasauris.com/ontologies/core/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix genome: <http://data.disney.com/ontologies/genome/> .
+
+
+<http:/data.tagasauris.com/instances/mvrgft12nglf> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Caregiver/Parent"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglg> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Contagonist/Temptor"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglh> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Creator/Magician/Visionary/Healer"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglj> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Explorer/Action Instigator"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglk> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Guardian/Mentor/Teacher/Sage"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12ngll> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Hero/Protagonist"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglm> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Imposter/False Hero"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12ngln> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Information Bearer"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglp> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Innocent/Child"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglq> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Jester/Trickster"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglr> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Love Interest/Quest Object"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12ngls> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Opposer/Skeptic"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglt> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Orphan/Regular Guy or Gal"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglv> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Rebel/Outsider"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglw> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Ruler/Authority"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglx> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Shapeshifter/Flip-Flopping Character"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12ngly> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Sidekick/Helper"@en .
+
+<http:/data.tagasauris.com/instances/mvrgft12nglz> a genome:CharacterArchetype ;
+	tgsi:preferredLabel "The Villain/Antagonist"@en .

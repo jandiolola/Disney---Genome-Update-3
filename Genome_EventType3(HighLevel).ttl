@@ -1,0 +1,380 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tgsi: <http://data.tagasauris.com/ontologies/core/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix genome: <http://data.disney.com/ontologies/genome/> .
+
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdm> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Occasion"@en .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdn> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Anniversary"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdp> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Birthday"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdq> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Holiday"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdr> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Thanksgiving"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bds> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Christmas"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdt> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Halloween"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdv> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Hanukkah"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdw> a genome:EventHighLevel ;
+	tgsi:preferredLabel "New Year's"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdx> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Funeral"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdy> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Debutante ball"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bdz> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Sweet sixteen"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bdm> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bf0> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Campaigns"@en .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bf1> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Advertising"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bf0> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bf2> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Military"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bf0> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bf3> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Political"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bf0> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb0s> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Accident"@en .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb0t> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Traffic"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0s> .
+
+<http:/data.tagasauris.com/instances/n2cqv9625crf> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Shipwreck"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0s> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374n> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Car Accident"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0s> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374m> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Crisis"@en .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374p> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Missing"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374m> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374q> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Person"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374p> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374r> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Thing"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374p> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374s> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Natural Disaster"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374m> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374t> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Flood"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374s> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374v> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Fire"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374s> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374w> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Big Storm"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374s> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374x> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Tornado"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374s> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374y> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Earthquake"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374s> .
+
+<http:/data.tagasauris.com/instances/n2cqz2b18ync> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Avalanche"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374s> .
+
+<http:/data.tagasauris.com/instances/n2cqz2b18ynd> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Explosion"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374s> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb0v> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Romantic"@en .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb0w> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Wedding"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0v> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb0x> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Courtship"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0v> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk3757> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Interpersonal"@en .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk3759> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Chance Meeting"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk3757> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb0y> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Reunion"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0v> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bf7> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Educational"@en .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bf8> a genome:EventHighLevel ;
+	tgsi:preferredLabel "First day of school"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bf7> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bf9> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Science fair"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bf7> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb0z> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Travel/Journeys"@en .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfb> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Interplanetary travel"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0z> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfc> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Cruise"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0z> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfd> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Expedition"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0z> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bff> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Pilgrimage"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0z> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfg> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Tour"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jjt77xqb0z> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk375m> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Life & Death"@en .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk375n> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Birth"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375m> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk375p> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Coma"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375m> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk375t> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Death"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375m> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk375v> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Murder"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375t> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk375w> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Natural Death"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375t> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb10> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Mysterious Circumstances"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375t> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb11> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Suicide"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375m> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb12> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Attempted"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375m> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb13> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Successful"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk375m> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374c> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Conflict"@en .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374d> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Attack"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374c> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374f> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Physical"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374d> .
+
+<http:/data.tagasauris.com/instances/n2cq4y9hpvvy> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Armed conflict"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374f> .
+
+<http:/data.tagasauris.com/instances/n2cq4y9hpvvz> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Battle"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374f> .
+
+<http:/data.tagasauris.com/instances/n2cq4y9hpvw0> a genome:EventHighLevel ;
+	tgsi:preferredLabel "War"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374f> .
+
+<http:/data.tagasauris.com/instances/n2cq4y9hpvw1> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Siege"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374f> .
+
+<http:/data.tagasauris.com/instances/n2cq4y9hpvw2> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Revolution"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374f> .
+
+<http:/data.tagasauris.com/instances/n2cq4y9hpvw3> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Invasion"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374f> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374g> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Verbal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374d> .
+
+<http:/data.tagasauris.com/instances/n2cq7j7s513n> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Bombing"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374c> .
+
+<http:/data.tagasauris.com/instances/mvrl0zxk374l> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Shooting"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374c> .
+
+<http:/data.tagasauris.com/instances/n2cqqcrh2fbt> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Intentional"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374c> .
+
+<http:/data.tagasauris.com/instances/n2cqqcrh2fbv> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Accidental"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvrl0zxk374c> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfh> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Recreational"@en .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfj> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Barbecue"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfk> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Bonfire"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfl> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Carnival/Fair"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfm> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Circus"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfn> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Family get-together"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfp> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Parade"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfq> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Party"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfr> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Picnic"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfs> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Sporting event"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb14> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Football"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfs> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb15> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Basketball"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfs> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb16> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Baseball"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfs> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb17> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Hockey"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfs> .
+
+<http:/data.tagasauris.com/instances/n5jjt77xqb18> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Soccer"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfs> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bft> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Feast/banquet"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfv> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Festival"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfw> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Pageant"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfh> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfx> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Contest"@en .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfy> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Race"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfx> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bfz> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Hunting"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfx> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bg0> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Rodeo"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfx> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bg1> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Tournament"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfx> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bg2> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Competition"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfx> .
+
+<http:/data.tagasauris.com/instances/n2crpqtj3bg3> a genome:EventHighLevel ;
+	tgsi:preferredLabel "Debate"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n2crpqtj3bfx> .

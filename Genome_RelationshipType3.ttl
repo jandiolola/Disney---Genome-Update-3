@@ -1,0 +1,180 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tgsi: <http://data.tagasauris.com/ontologies/core/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix genome: <http://data.disney.com/ontologies/genome/> .
+
+
+<http:/data.tagasauris.com/instances/mvqbj5km123j> a genome:RelationshipType ;
+	tgsi:preferredLabel "Family: Blood Relations"@en .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123k> a genome:RelationshipType ;
+	tgsi:preferredLabel "Aunt/Uncle-Niece/Nephew"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123j> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123l> a genome:RelationshipType ;
+	tgsi:preferredLabel "Blood relation: other"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123j> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123m> a genome:RelationshipType ;
+	tgsi:preferredLabel "Cousin"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123j> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123n> a genome:RelationshipType ;
+	tgsi:preferredLabel "Grandparent-Grandchild"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123j> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123p> a genome:RelationshipType ;
+	tgsi:preferredLabel "Parent-Child (Mother/Father; Daughter/Son)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123j> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123q> a genome:RelationshipType ;
+	tgsi:preferredLabel "Sibling"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123j> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123r> a genome:RelationshipType ;
+	tgsi:preferredLabel "Family: Non-Blood Relations"@en .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123s> a genome:RelationshipType ;
+	tgsi:preferredLabel "Adoption"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123r> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123t> a genome:RelationshipType ;
+	tgsi:preferredLabel "Godparent-Godchild"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123r> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123v> a genome:RelationshipType ;
+	tgsi:preferredLabel "In-Laws"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123r> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123w> a genome:RelationshipType ;
+	tgsi:preferredLabel "Non-Blood Relation: Other"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123r> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123x> a genome:RelationshipType ;
+	tgsi:preferredLabel "Stepparent-Stepchild"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123r> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90b> a genome:RelationshipType ;
+	tgsi:preferredLabel "Child of love interest/Love interest of parent"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123r> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90c> a genome:RelationshipType ;
+	tgsi:preferredLabel "Sibling of love interest/Love interest of sibling"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123r> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90d> a genome:RelationshipType ;
+	tgsi:preferredLabel "Professional"@en .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90f> a genome:RelationshipType ;
+	tgsi:preferredLabel "Supervisor(Manager)/Subordinate(Report)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jtm9mzg90d> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90g> a genome:RelationshipType ;
+	tgsi:preferredLabel "Client/Consultant(Contractor)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jtm9mzg90d> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90h> a genome:RelationshipType ;
+	tgsi:preferredLabel "Employer/Employee"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jtm9mzg90d> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90j> a genome:RelationshipType ;
+	tgsi:preferredLabel "Co-workers (Peers)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jtm9mzg90d> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km1244> a genome:RelationshipType ;
+	tgsi:preferredLabel "Proximity/Distance"@en .
+
+<http:/data.tagasauris.com/instances/mvqbj5km1245> a genome:RelationshipType ;
+	tgsi:preferredLabel "Estranged"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1244> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km1246> a genome:RelationshipType ;
+	tgsi:preferredLabel "Long-lost"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1244> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90k> a genome:RelationshipType ;
+	tgsi:preferredLabel "Social"@en .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90l> a genome:RelationshipType ;
+	tgsi:preferredLabel "Friend"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jtm9mzg90k> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90m> a genome:RelationshipType ;
+	tgsi:preferredLabel "Best-friend"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jtm9mzg90k> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123y> a genome:RelationshipType ;
+	tgsi:preferredLabel "Functional"@en .
+
+<http:/data.tagasauris.com/instances/mvqbj5km123z> a genome:RelationshipType ;
+	tgsi:preferredLabel "Alliance/Partnership"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123y> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km1243> a genome:RelationshipType ;
+	tgsi:preferredLabel "Master-Slave"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123y> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90n> a genome:RelationshipType ;
+	tgsi:preferredLabel "Student-Teacher"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km123y> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km1247> a genome:RelationshipType ;
+	tgsi:preferredLabel "Romantic/Sexual"@en .
+
+<http:/data.tagasauris.com/instances/mvqbj5km1248> a genome:RelationshipType ;
+	tgsi:preferredLabel "Casually Involved"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km1249> a genome:RelationshipType ;
+	tgsi:preferredLabel "Dating (Girlfriend/Boyfriend)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124b> a genome:RelationshipType ;
+	tgsi:preferredLabel "Divorced"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124c> a genome:RelationshipType ;
+	tgsi:preferredLabel "Engaged (Fiancé/Fiancée)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124d> a genome:RelationshipType ;
+	tgsi:preferredLabel "Having an Affair"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124f> a genome:RelationshipType ;
+	tgsi:preferredLabel "Married/Spousal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124g> a genome:RelationshipType ;
+	tgsi:preferredLabel "Romantic: Unclear"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124h> a genome:RelationshipType ;
+	tgsi:preferredLabel "Separated"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90p> a genome:RelationshipType ;
+	tgsi:preferredLabel "Broken up (Ex-girlfriend/Ex-boyfriend)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90q> a genome:RelationshipType ;
+	tgsi:preferredLabel "Prior romantic involvement"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/n5jtm9mzg90r> a genome:RelationshipType ;
+	tgsi:preferredLabel "Prior casual involvement"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km1247> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124j> a genome:RelationshipType ;
+	tgsi:preferredLabel "Unknown"@en .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124k> a genome:RelationshipType ;
+	tgsi:preferredLabel "Hidden from audience only"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km124j> .
+
+<http:/data.tagasauris.com/instances/mvqbj5km124l> a genome:RelationshipType ;
+	tgsi:preferredLabel "Hidden from characters and audience"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/mvqbj5km124j> .

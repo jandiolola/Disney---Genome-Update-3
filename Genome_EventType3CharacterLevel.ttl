@@ -1,0 +1,460 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tgsi: <http://data.tagasauris.com/ontologies/core/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix genome: <http://data.disney.com/ontologies/genome/> .
+
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbc> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Occasion"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbd> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has anniversary"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbc> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbf> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has birthday"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbc> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbg> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Campaigns"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbh> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Military"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbg> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbj> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Fights in war"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbc> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbk> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Starts war"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbh> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbl> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Wins war"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbh> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbm> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Loses war"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbh> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbn> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Political"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbg> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbp> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Runs for office"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbn> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbq> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Wins election"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbn> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbr> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Loses election"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbn> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbs> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is nominated"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbn> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbt> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Accident"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbv> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Car Accident"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbt> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbw> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Causes accident"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbv> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbx> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is accident victim"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kbv> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kby> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Economic"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kbz> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Goes Bankrupt"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kby> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc0> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Loses Home"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kby> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc1> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Windfall"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kby> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc2> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Earns $"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kc1> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc3> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Finds $"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kc1> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc4> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Inherits $"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kc1> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc5> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Wins $"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kc1> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc6> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Crisis"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc7> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Goes Missing"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kc6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc8> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Fire"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kc6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kc9> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Starts Fire"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kc8> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcb> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Romantic"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcc> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Kisses someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcb> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcd> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Proposal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcb> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcf> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Proposes"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcd> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcg> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is proposed to"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcd> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kch> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Accepts proposal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcd> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcj> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Rejects proposal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcd> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kck> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Wedding/Marriage"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcb> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcl> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Gets married"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcb> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcm> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Interpersonal"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcn> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Betrayal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcp> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Betrays someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcn> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcq> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is betrayed"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcn> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcr> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Extortion"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcs> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Extorts someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcr> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kct> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is extorted"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcr> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcv> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has temper tantrum"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcw> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Educational"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcx> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has first day of school"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcw> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcy> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Travel/Journeys"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kcz> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Arrives"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcy> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd0> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Departs"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kcy> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd1> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Procreation/Child-Related"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd2> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has abortion"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd1> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd3> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Adoption"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd1> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd4> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is adopted"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd3> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd5> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Adopts someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd3> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd6> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has miscarriage"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd3> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd7> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Gets pregnant"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd3> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd8> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Professional"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kd9> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Fired"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd8> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdb> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is fired"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd9> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdc> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Fires someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd9> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdd> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is hired"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd8> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdf> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is promoted"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd8> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdg> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is passed over for job/promotion"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kd8> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdh> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Sexual"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdj> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Comes out of closet"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdh> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdk> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Loses virginity"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdh> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdl> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has sex"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdh> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdm> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Life & Death"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdn> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Birth"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdp> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is born"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdn> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdq> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has baby (applies to father and mother)"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdn> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdr> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Coma"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kds> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Goes in"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdr> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdt> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Continues to be in"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdr> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdv> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Comes out of"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdr> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdw> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Death"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdx> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Dies"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdw> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdy> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is murdered"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdx> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kdz> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Murders someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdx> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf0> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Dies natural death"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdx> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf1> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Dies under mysterious circumstances"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdx> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf2> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Has near Death Experience"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf3> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Suicide"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kdm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf4> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Commits suicide"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf3> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf5> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Attempts suicide"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf3> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf6> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Conflict"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf7> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Attack"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf8> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Attacks someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf7> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kf9> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is attacked"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf7> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfb> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Getting Revenge"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfc> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Gets revenge"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kfb> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfd> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is victim of revenge"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kfb> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kff> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Kidnapping"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfg> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Kidnaps"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kff> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfh> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is kidnapped"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kff> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfj> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Ransom"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfk> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Holds someone for ransom"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kfj> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfl> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is held for ransom"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kfj> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfm> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Rape"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfn> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Rapes someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kfm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfp> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is raped"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kfm> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfq> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Shooting"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfr> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Shoots someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfs> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is shot"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kf6> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kft> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Legal"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfv> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is acquitted"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kft> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfw> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is arrested"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kft> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfx> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Is convicted"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kft> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfy> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Gets out of Jail"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kft> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kfz> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Contest"@en .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kg0> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Races someone"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kfz> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kg1> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Competition"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kfz> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kg2> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Wins competition"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kg1> .
+
+<http:/data.tagasauris.com/instances/n5jm5t8q8kg3> a genome:EventCharacterLevel ;
+	tgsi:preferredLabel "Loses competition"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jm5t8q8kg1> .

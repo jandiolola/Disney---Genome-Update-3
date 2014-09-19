@@ -1,0 +1,87 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tgsi: <http://data.tagasauris.com/ontologies/core/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix genome: <http://data.disney.com/ontologies/genome/> .
+
+
+<http:/data.tagasauris.com/instances/n5jj0rn917ws> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Quest"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917wt> a genome:BasisOfAction ;
+	tgsi:preferredLabel "For person"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jj0rn917ws> .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917wv> a genome:BasisOfAction ;
+	tgsi:preferredLabel "For animal"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jj0rn917ws> .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917ww> a genome:BasisOfAction ;
+	tgsi:preferredLabel "For place"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jj0rn917ws> .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917wx> a genome:BasisOfAction ;
+	tgsi:preferredLabel "For thing"@en ;
+	tgsi:broaderConcept <http:/data.tagasauris.com/instances/n5jj0rn917ws> .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917wy> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Treasure Hunt"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917wz> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Heist"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x0> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Alien Invasion"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x1> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Conspiracy"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x2> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Escape"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x3> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Revenge"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x4> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Survival"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x5> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Coming of Age"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x6> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Fish Out of Water"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x7> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Addiction"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x8> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Disease"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917x9> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Generation Gap"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917xb> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Finding Love"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917xc> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Hauntings (Ghosts)"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917xd> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Serial Killer"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917xf> a genome:BasisOfAction ;
+	tgsi:preferredLabel "End of the World"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917xg> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Time Travel"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917xh> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Drugs"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917xj> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Alcohol"@en .
+
+<http:/data.tagasauris.com/instances/n5jj0rn917xk> a genome:BasisOfAction ;
+	tgsi:preferredLabel "Investigation"@en .
